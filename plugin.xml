@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plugin SYSTEM "../plugin.dtd">
+<plugin
+    id="com.oxygenxml.plugin.Conversion"
+    name="Conversion"
+    description="Conversion plug-in for oXygen"
+    version="1.0.0"
+    vendor="SyncRO"
+    class="ro.sync.sample.plugin.converter.ConversionPlugin"
+    classLoaderType="preferReferencedResources">
+    <runtime>
+        <library name="lib/conversion.jar"/>
+    </runtime>
+    <extension type="selectionProcessor" 
+    class="ro.sync.sample.plugin.converter.ConversionPluginExtension"/>
+</plugin>
